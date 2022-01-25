@@ -11,7 +11,7 @@ public interface EmployeeService {
     public Employee save(Employee client);
     public Employee update(Employee client);
     public void delete(Long id);
-    public Optional<Employee> findById(Long id);
+    public Employee findById(Long id);
     public boolean existById(Long id);
 
 }
